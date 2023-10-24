@@ -16,4 +16,4 @@ chmod +x /root/CheckAtx/checkm.sh
 ln -s /root/CheckAtx/checkm.sh /usr/local/bin/CheckAtx
 
 clear
-echo -e "Para iniciar o menu digite: ${verde}ulekCheckuser${reset}"
+echo -e "Para iniciar o menu digite: ${verde}CheckAtx${reset}"
