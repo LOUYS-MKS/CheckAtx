@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /root/UlekCheckUser/checkm.py
+python3 /root/checkatx/checkm.py
