@@ -53,7 +53,7 @@ def check_process(process_name):
         print(colored(f"Erro ao verificar o processo: {e}", "red"))
     return False
 
-script_name = "/root/UlekCheckUser/checkatx.py"
+script_name = "/root/CheckAtx/checkatx.py"
 
 def show_menu():
     os.system('clear')
