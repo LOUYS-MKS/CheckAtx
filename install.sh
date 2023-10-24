@@ -11,9 +11,9 @@ rm -f /usr/local/bin/CheckAtx
 pkill -9 -f "/root/CheckAtx/checkuser.py"
 
 apt update && apt upgrade -y && apt install python3 git -y
-git clone https://github.com/UlekBR/UlekCheckUser.git
-chmod +x /root/UlekCheckUser/checkuserMenu.sh
-ln -s /root/CheckAtx/checkuserMenu.sh /usr/local/bin/CheckAtx
+git clone https://github.com/LOUYS-MKS/CheckAtx.git
+chmod +x /root/CheckAtx/checkm.sh
+ln -s /root/CheckAtx/checkm.sh /usr/local/bin/CheckAtx
 
 clear
 echo -e "Para iniciar o menu digite: ${verde}ulekCheckuser${reset}"
